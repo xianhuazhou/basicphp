@@ -1,5 +1,4 @@
 <?php
-file_put_contents('/tmp/a.txt', time() . "\n");
 require 'config/app.php';
 
 $field = isset($_GET['field']) ? $_GET['field'] : '';
